@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRUD Siswa</h1>
+
+    <!-- Form untuk Menambah Siswa -->
+    <h2>Tambah Siswa</h2>
+    <form id="tambah-siswa-form">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+        <label for="kelas">Kelas:</label>
+        <input type="text" id="kelas" name="kelas" required>
+        <button type="submit">Tambah</button>
+    </form>
+
+    <!-- Form untuk Mengubah Siswa -->
+    <h2>Ubah Siswa</h2>
+    <form id="ubah-siswa-form">
+        <label for="ubah-nama">Nama:</label>
+        <input type="text" id="ubah-nama" name="ubah-nama" required>
+        <label for="ubah-kelas">Kelas:</label>
+        <input type="text" id="ubah-kelas" name="ubah-kelas" required>
+        <button type="submit">Ubah</button>
+    </form>
+
+    <!-- Daftar Siswa -->
+    <h2>Daftar Siswa</h2>
+    <ul id="daftar-siswa">
+        <!-- Daftar siswa akan diisi melalui JavaScript -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
